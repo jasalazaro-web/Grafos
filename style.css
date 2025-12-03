@@ -1,0 +1,117 @@
+/* ====== ESTILO GENERAL ====== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #e5e7eb; 
+    color: #2d3748;      
+}
+
+/* Caja principal */
+.container {
+    background: #f8fafc; 
+    max-width: 950px;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #2c5282;      
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Enlaces */
+a {
+    color: #1e40af; 
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Listas de posts */
+.post-item {
+    background: #edf2f7;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #cbd5e0;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.post-item:hover {
+    background: #e2e8f0;
+    transform: translateX(5px);
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.post-item a {
+    background: #ffffff;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-size: 20px;
+    color: #2d3748;
+    display: inline-block;
+    border: 1px solid #cfd8e3;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.post-item a:hover {
+    background: #f1f5f9;
+    transform: scale(1.05);
+}
+
+/* Botón VOLVER */
+.volver {
+    display: block;
+    padding: 12px 25px;
+    background: #4682B4; 
+    color: white !important;
+    border-radius: 10px;
+    margin: 30px auto 0;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: max-content;
+}
+
+.volver:hover {
+    background:#4682B4;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    border-radius: 10px;
+    border: 2px solid #d1d5db;
+}
+
+/* ====== PIE DE PÁGINA ====== */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 0;
+    color: #6b7280; 
+    font-size: 14px;
+    border-top: 1px solid #cbd5e0;
+}
